@@ -1,0 +1,3 @@
+﻿  imgui.cpp
+c:\users\bobby\desktop\weewooweewoo\csgo\imgui\imgui.cpp(1302): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  CSGO_Hack.vcxproj -> C:\Users\Bobby\Desktop\weewooweewoo\csgo\Debug\CSGO_Hack.dll

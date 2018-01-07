@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CSGO">
+      <UniqueIdentifier>{f54a0cd7-d977-4184-9b59-cc74fa6464e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine">
+      <UniqueIdentifier>{509a65b7-66bc-44b5-9397-de9adba62945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\SDK">
+      <UniqueIdentifier>{117552de-5c35-4323-b248-0aecf8f26d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces">
+      <UniqueIdentifier>{043de082-4411-4e68-a005-2b26bc511baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\VMT">
+      <UniqueIdentifier>{a0576772-3e0b-4463-add5-0ae499eac7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Stuff">
+      <UniqueIdentifier>{a502139a-32fb-4085-86d4-263ed475caf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Structs">
+      <UniqueIdentifier>{2042ce1d-7c65-42a2-a3e1-09a726061952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Enums">
+      <UniqueIdentifier>{147c2e8e-7027-40a6-a24c-be7199c6bd3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Templates_TypeDefs">
+      <UniqueIdentifier>{3552da64-56ba-41c8-931c-c4c4d5f9057d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes">
+      <UniqueIdentifier>{e047b637-bef0-43f9-b63e-c66a0b465b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CUserCmd">
+      <UniqueIdentifier>{6704fb37-5ab4-45fa-ac90-985a116f7912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Includes">
+      <UniqueIdentifier>{6f91cf49-93b2-40d1-8a9c-b412fb1e0c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CBaseHudChat">
+      <UniqueIdentifier>{5ed1ab63-62b4-479e-81f4-53ce20532558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\ClientClass">
+      <UniqueIdentifier>{299046cd-3ebd-4493-af1a-dc3e02ded893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IBaseClientDLL">
+      <UniqueIdentifier>{21428655-1718-4c33-9789-84d3856f3cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IClientMode">
+      <UniqueIdentifier>{8849be5b-0820-4da1-8d1c-a0306762a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IInputSystem">
+      <UniqueIdentifier>{b9f88c02-25a6-4d3a-a40c-eb10ac3315c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IVEngineClient">
+      <UniqueIdentifier>{84717d21-e3ab-4fce-91bb-8963bd66049c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\ICollideable">
+      <UniqueIdentifier>{8a0a6556-9d5f-452d-a482-5ee50dc60054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IClientEntity">
+      <UniqueIdentifier>{610c2c6a-0761-4923-9c01-1a95dd524739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IClientEntityList">
+      <UniqueIdentifier>{08c4d616-fc1b-4d65-ba08-66ecefda7af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Misc">
+      <UniqueIdentifier>{69a883ee-5d89-4e7a-ae98-82e5d6b52e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Misc\Color">
+      <UniqueIdentifier>{ea36e35f-de87-4db4-9acb-2b831cbd7e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IPanel">
+      <UniqueIdentifier>{a7f1cb71-f124-4ada-9d8e-9a7b81cb1418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\ISurface">
+      <UniqueIdentifier>{dbc4b3a2-8359-4d3a-b9d7-3b208f10a14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IVModelInfoClient">
+      <UniqueIdentifier>{65744554-aa3c-4446-b746-1311d80ac335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IVRenderView">
+      <UniqueIdentifier>{8e06dc05-fc4d-405d-affb-8fb288581a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IMaterial">
+      <UniqueIdentifier>{eb942007-de76-4268-9f8e-81d3f85c1e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IMaterialSystem">
+      <UniqueIdentifier>{e7701d47-7265-4e78-a418-d69894a61509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IVModelRender">
+      <UniqueIdentifier>{2307dae3-6d65-4751-8f26-f968b311ce56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IMatRenderContext">
+      <UniqueIdentifier>{e1181968-c1a5-4900-9a2d-2fea209b5114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IGameMovement">
+      <UniqueIdentifier>{2d18c7d8-f7ef-45aa-ad40-255310498cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CGlobalVars">
+      <UniqueIdentifier>{1be32857-f54c-4672-aa14-8bfc771dece6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IPlayerInfoManager">
+      <UniqueIdentifier>{db08aeac-7b24-493a-aa85-d4cca291af12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IViewRender">
+      <UniqueIdentifier>{1de1e6a1-7b43-415a-9a53-2af6f0600260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\ITraceFilter">
+      <UniqueIdentifier>{da065a25-520b-49f6-9bfd-d6b955dbe9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CTraceFilter">
+      <UniqueIdentifier>{56d953b8-f4d9-41d1-a68c-af7c60763775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CTraceFilterSkipTwoEntities">
+      <UniqueIdentifier>{f8cf6532-2a9b-4e43-b2f4-d14a601b3277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\VectorAligned">
+      <UniqueIdentifier>{e901a928-9563-4335-9b40-03e76f1a524d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CBaseTrace">
+      <UniqueIdentifier>{df5a3643-6126-451e-8a74-c26a3de9f25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\CGameTrace">
+      <UniqueIdentifier>{626c6506-6ef5-4f22-87a9-aa6299659bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IEngineTrace">
+      <UniqueIdentifier>{bb671499-93f4-477d-ab44-ffc566b967a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat">
+      <UniqueIdentifier>{7c2f90bc-9490-4ece-aea5-145a21c4469f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Main">
+      <UniqueIdentifier>{87728b6d-0b1e-474f-81e5-e04a66ebf011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Hooks">
+      <UniqueIdentifier>{c218bfc5-adb4-46d1-b159-d8c75dd2b5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Entities">
+      <UniqueIdentifier>{506fcf39-ed5c-4e5d-aea4-fafe0252f1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Entities\Player">
+      <UniqueIdentifier>{34674513-8fa8-461c-8231-2094251b9dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\NetVars">
+      <UniqueIdentifier>{f67c7076-5b3f-4372-aee0-87ccb9409b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Utils">
+      <UniqueIdentifier>{d572d703-e86d-40d1-ae73-431b2698cfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Entities\Weapons">
+      <UniqueIdentifier>{aa52b4e6-501a-42e0-b54b-85e71bf1da0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Vars">
+      <UniqueIdentifier>{ee91b40c-cf17-4ec5-a9ff-22a3ca66c4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IConVar">
+      <UniqueIdentifier>{63f41de6-2db7-4222-a43c-3122ddd04123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\ImGUI">
+      <UniqueIdentifier>{a2a52ac1-9432-4ece-befb-f7c54d5ae33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\ImGUI\DX9">
+      <UniqueIdentifier>{6f4e0cb4-2da1-47e1-96df-94eb96860b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\KeyValues">
+      <UniqueIdentifier>{d3177b07-c9cb-4a08-b798-a1ca526e08aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\Classes\IGameEvents">
+      <UniqueIdentifier>{819bc1f1-a8b0-4aab-be00-57f4e04c9585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Config">
+      <UniqueIdentifier>{82d917d9-aecf-49fd-a129-b5a362481401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SourceEngine\EngineInterfaces\IVDebugOverlay">
+      <UniqueIdentifier>{b353a425-9c2e-4377-839f-aed12467c52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Cheat\Utils\Parser">
+      <UniqueIdentifier>{d4107bca-585e-4f21-8d37-e36f367a5d4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.h">
+      <Filter>CSGO\SourceEngine\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common.h">
+      <Filter>CSGO\SourceEngine\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>CSGO\SourceEngine\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>CSGO\SourceEngine\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDefs.h">
+      <Filter>CSGO\SourceEngine\Templates_TypeDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>CSGO\SourceEngine\Templates_TypeDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>CSGO\SourceEngine\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>CSGO\SourceEngine\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>CSGO\SourceEngine\Classes\CUserCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>CSGO\SourceEngine\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHudChat.h">
+      <Filter>CSGO\SourceEngine\Classes\CBaseHudChat</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>CSGO\SourceEngine\Classes\ClientClass</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IBaseClientDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientMode.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientMode</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IInputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IVEngineClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\ICollideable</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntity.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntityList</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>CSGO\SourceEngine\Misc\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\ISurface</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfoClient.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IVModelInfoClient</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IVRenderView</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IMaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IVModelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="IMatRenderContext.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IMatRenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameMovement.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IGameMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>CSGO\SourceEngine\Classes\CGlobalVars</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerInfoManager.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IPlayerInfoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRender.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IViewRender</Filter>
+    </ClInclude>
+    <ClInclude Include="ITraceFilter.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\ITraceFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraceFilter.h">
+      <Filter>CSGO\SourceEngine\Classes\CTraceFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraceFilterSkipTwoEntities.h">
+      <Filter>CSGO\SourceEngine\Classes\CTraceFilterSkipTwoEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorAligned.h">
+      <Filter>CSGO\SourceEngine\Classes\VectorAligned</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTrace.h">
+      <Filter>CSGO\SourceEngine\Classes\CBaseTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameTrace.h">
+      <Filter>CSGO\SourceEngine\Classes\CGameTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IEngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>CSGO\SourceEngine\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CSGO\Cheat\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWeapon.h">
+      <Filter>CSGO\Cheat\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>CSGO\Cheat\Vars</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="ICVar.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientThinkable.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="THook.h">
+      <Filter>CSGO\SourceEngine\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovement.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CVisuals.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>CSGO\ImGUI\DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="CLegitBot.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CChams.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>CSGO\SourceEngine\Classes\KeyValues</Filter>
+    </ClInclude>
+    <ClInclude Include="vthook.h" />
+    <ClInclude Include="CFrameStageNotify.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvents.h">
+      <Filter>CSGO\SourceEngine\Classes\IGameEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="CEvents.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h" />
+    <ClInclude Include="Config.h">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinitions.h">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnifeBot.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib.h">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDebugOverlay.h">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IVDebugOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseAttributableItem.h">
+      <Filter>CSGO\Cheat\Entities\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="RainbowColor.h">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CProxy.h">
+      <Filter>CSGO\Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvPropHook.h">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="directHook.h" />
+    <ClInclude Include="Parser.h">
+      <Filter>CSGO\Cheat\Utils\Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK.cpp">
+      <Filter>CSGO\SourceEngine\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>CSGO\Cheat\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>CSGO\SourceEngine\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CSGO\Cheat\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWeapon.cpp">
+      <Filter>CSGO\Cheat\Entities\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>CSGO\Cheat\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>CSGO\SourceEngine\EngineInterfaces\IConVar</Filter>
+    </ClCompile>
+    <ClCompile Include="THook.cpp">
+      <Filter>CSGO\SourceEngine\VMT</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>CSGO\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>CSGO\ImGUI\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>CSGO\Cheat\Utils\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>CSGO\Cheat\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImGUI\LICENSE">
+      <Filter>CSGO\ImGUI</Filter>
+    </None>
+    <None Include="ImGUI\README.md">
+      <Filter>CSGO\ImGUI</Filter>
+    </None>
+  </ItemGroup>
+</Project>
